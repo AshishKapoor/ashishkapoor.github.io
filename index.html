@@ -30,6 +30,13 @@
         display: none;
       }
     }
+    .grid-table {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 8px;
+      grid-row-gap: 8px;
+    }
   </style>
 
   <body>
@@ -79,10 +86,8 @@
     <div>
       <h2>Work Experience</h2>
       <p>
-        <b
-          >Lead Applications Engineer, Rill Data Inc; Remote, India — 02/2020 —
-          03/2022</b
-        >
+        <h4>Lead Applications Engineer, Rill Data Inc; Remote, India — 02/2020 —
+          03/2022</h4>
       </p>
       <p>
         <li>
@@ -100,9 +105,9 @@
       </p>
 
       <p>
-        <b
+        <h4
           >Senior Software Engineer, Quid, Inc; Remote, India — 08/2019 —
-          02/2020</b
+          02/2020</h4
         >
       </p>
       <p>
@@ -118,7 +123,7 @@
       </p>
 
       <p>
-        <b>Software Engineer, Kerb.works; Remote, India — 10/2017 — 08/2019</b>
+        <h4>Software Engineer, Kerb.works; Remote, India — 10/2017 — 08/2019</h4>
       </p>
       <p>
         <li>
@@ -133,9 +138,8 @@
       </p>
 
       <p>
-        <b
-          >iOS Engineer (Swift), Navitas; New Delhi, India — 06/2016 —
-          10/2017</b
+        <h4>iOS Engineer (Swift), Navitas; New Delhi, India — 06/2016 —
+          10/2017</h
         >
       </p>
       <p>
@@ -148,9 +152,9 @@
       </p>
 
       <p>
-        <b>
+        <h4>
           Lead iOS Engineer (Swift), ServX (Acquired by Gaadi.com); Delhi, India
-          — 08/2015 — 05/2016</b
+          — 08/2015 — 05/2016</h4
         >
       </p>
       <p>
@@ -163,9 +167,9 @@
       </p>
 
       <p>
-        <b
+        <h4
           >Image Quality Engineer, GoPro (On Aricent payroll); Gurugram, India —
-          03/2014 — 09/2015</b
+          03/2014 — 09/2015</h4
         >
       </p>
       <p>
@@ -200,16 +204,16 @@
     <div>
       <h2>Education</h2>
       <p>
-        Indira Gandhi National Open University, 66.04% New Delhi, India —
-        <span>Master of Computer Applications, 2017</span>
+        <h4>Indira Gandhi National Open University</h4>
+        <span>66.04% New Delhi, India — Master of Computer Applications, 2017</span>
       </p>
       <p>
-        Indira Gandhi National Open University, New Delhi, India — Post Graduate
-        <span>Diploma in Computer Applications, 2015</span>
+        <h4>Indira Gandhi National Open University</h4>
+        <span>New Delhi, India — Post Graduate Diploma in Computer Applications, 2015</span>
       </p>
       <p>
-        Guru Gobind Singh Indraprastha University, 74.5% New Delhi, India —
-        <span>Bachelor Bachelor of Computer Applications, 2013</span>
+        <h4>Guru Gobind Singh Indraprastha University</h4>
+        <span>74.5% New Delhi, India — Bachelor Bachelor of Computer Applications, 2013</span>
       </p>
     </div>
 
@@ -217,9 +221,16 @@
 
     <div>
       <h2>Skills</h2>
-      <p><b>Languages:</b> TypeScript, Javascript, C, SQL, ES6, CSS</p>
-      <p><b>Libraries:</b> React, NodeJS, Redux, React Query, React Native</p>
-      <p><b>Tools:</b> Git, Docker, Kubernetes, Vault, Figma</p>
+      <div class="grid-table">
+        <div><h4>Languages:</h4> <p>TypeScript (ES5, ES6), SQL, C</p></div>
+        <div><h4>Libraries:</h4> <p>React, NodeJS, SWR / React Query</p></div>
+        <div><h4>Frameworks:</h4> <p>NextJS, Express</p></div>
+        <div><h4>Mobile:</h4> <p>React Native, Objective C, Swift</p></div>
+        <div><h4>Tools:</h4> <p>Git, Auth0, Vault</p></div>
+        <div><h4>Containerization:</h4> <p>Docker, Kubernetes</p></div>
+        <div><h4>Design:</h4> <p>Figma, HTML, CSS</p></div>
+        <div><h4>Cloud:</h4> <p>Google Cloud Provider, Oracle Cloud</p></div>
+      </div>
     </div>
 
     <hr />
@@ -260,10 +271,10 @@
 
     <div>
       <h2>References</h2>
-      <p>Nishant Bangarwa - Co-founder at Rill Data; +91 972 920 0044</p>
-      <p>Shane Miller - Design Manager at Label Box; +1 360 510 0240</p>
-      <p>Matthew Salmon - Former CTO at Kerb; +61 430 448 866</p>
-      <p>Akansh Sinha - Building Truebil at Spinny; +91 999 966 6563</p>
+      <p>Nishant Bangarwa - Co-founder at Rill Data; <a href="tel:+91 972 920 0044">+91 972 920 0044</a></p>
+      <p>Shane Miller - Design Manager at Label Box; <a href="tel:+1 360 510 0240">+1 360 510 0240</a></p>
+      <p>Matthew Salmon - Former CTO at Kerb; <a href="tel:+61 430 448 866">+61 430 448 866</a></p>
+      <p>Akansh Sinha - Building Truebil at Spinny; <a href="tel:+91 999 966 6563">+91 999 966 6563</a></p>
     </div>
   </body>
 </html>
